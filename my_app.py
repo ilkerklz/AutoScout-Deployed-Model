@@ -20,7 +20,7 @@ st.write(df.head())
 
 # model
 import pickle
-filename = 'my_model'
+filename = 'my_model-1'
 model = pickle.load(open(filename, 'rb'))
 
 #sidebar
